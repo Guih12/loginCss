@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0in;
+
+}
+
+#general-forms{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 1px 1px 1px pink;
+    background-position: center;
+    background-image: url('motanha.jpg');
+    
+    
+}
+.form_general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFf;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+.date_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: slategray;
+    font-weight: bold;
+}
+
+form input{
+    display: block;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px;
+    margin-bottom: 4px;
+}
+form input:hover{
+    display: block;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 4px;
+    border: 2px solid pink;
+    background-color: pink;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    font-family: sans-serif;
+}
+
+button{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid pink;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+    
+}
+
+button:hover{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid pink;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #FFFFFf;
+    background-color: pink;
+}
+#lembrar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esqueceu_senha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+    
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: slategray;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
